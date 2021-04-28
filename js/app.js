@@ -93,6 +93,28 @@ let swiper3 = new Swiper(".swiper3", {
   scrollbar: {
     el: ".swiper-scrollbar",
   },
+  breakpoints: {
+    200: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    540: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    767: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 6,
+      spaceBetween: 20,
+    },
+   },
 });
   
 
@@ -116,36 +138,33 @@ let swiper4 = new Swiper(".swiper4", {
   scrollbar: {
     el: ".swiper-scrollbar",
   },
+  breakpoints: {
+    200: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    540: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    767: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 6,
+      spaceBetween: 20,
+    },
+   },
 });
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Toggle Sidebar
 $("#showMenuBtn").on("click",showHideMenu);
 
 function showHideMenu(){
