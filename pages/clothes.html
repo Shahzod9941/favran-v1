@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../libs/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libs/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="../../libs/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../libs/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/clothes.css">
+    
+    <title>Flex</title>
+</head>
+<body>
+
+        <!-- Navbabr -->
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <div class="nav-item">
+                <div class="wl">
+                    <a id="showMenuBtn" class="menu-bars showMenuBtn"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="nav-item"><a class="navbar-brand" href="#">favran.tj</a></div>
+            <div class="nav-item">
+                <div class="search__wrap">
+                    <div><i class="fa fa-menu"></i></div>
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="Поиск...">
+                        <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="side-menu-container hide-side-menu">
+          <nav id="nav-panel">
+            <div><a class="navbar-brand" href="#">favran.tj</a></div>
+            <ul class="sidebar__list">
+              <li class="sidebar__item"><i class="fas fa-tshirt"></i> <a class="sidebar__link" href="">Одежда</a></li>
+              <li class="sidebar__item"><i class="fa fa-"></i> <a class="sidebar__link" href="">Детская мир</a></li>
+              <li class="sidebar__item"><i class="fa fa-"></i> <a class="sidebar__link" href="">Обувь</a></li>
+              <li class="sidebar__item"><i class="fas fa-refrigerator"></i><a class="sidebar__link" href="">Электроника</a></li>
+              <li class="sidebar__item"><i class="fas fa-desktop"></i> <a class="sidebar__link" href=""> Компьютеры и ноутбуки</a></li>
+              <li class="sidebar__item"><i class="fa fa-phone"></i> <a class="sidebar__link" href="">Смартфоны</a></li>
+              <li class="sidebar__item"><i class="fa fa-"></i> <a class="sidebar__link" href="">Часы</a></li>
+              <li class="sidebar__item"><i class="fa fa-gem"></i> <a class="sidebar__link" href=""> Ювилерия</a></li>
+              <li class="sidebar__item"><i class="fa fa-"></i> <a class="sidebar__link" href="">Бытовая техника</a></li>
+              <li class="sidebar__item"><i class="fa fa-"></i> <a class="sidebar__link" href="">Товары для дома</a></li>
+              <li class="sidebar__item"><i class="fa fa-"></i> <a class="sidebar__link" href="">Строителство</a></li>
+              <li class="sidebar__item"><i class="fa fa-"></i> <a class="sidebar__link" href="">Спорт товары</a></li>
+            </ul>
+            </div>
+          </nav>
+    <section class="sample">
+        <div class="container">
+            <h3>Смартфоны</h3>
+            <div class="row">
+                <div class="item" data-toggle="modal" data-target="#myModal">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://images.samsung.com/is/image/samsung/ru-galaxy-a21s-a217-sm-a217fzbnser-backl-thumb-308603373?$320_320_PNG$" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Samsung</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package -->
+                <div class="item" data-toggle="modal" data-target="#s20">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://images.samsung.com/is/image/samsung/p5/uk/smartphones/galaxy-s20/s20-fe-buy/carousel-kv/009_sku_kv/mo/S20-FE_Navy_SKUimage.jpg?imwidth=720
+                            " alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Galaxy S20</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+            <div class="modal fade" id="s20" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">Galaxy S20</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="centre">
+                            <img src="https://images.samsung.com/is/image/samsung/p5/uk/smartphones/galaxy-s20/s20-fe-buy/carousel-kv/009_sku_kv/mo/S20-FE_Navy_SKUimage.jpg?imwidth=720" alt="Merceder">
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non soluta saepe voluptate repudiandae quaerat aut quasi ipsa! Quis esse sequi aut quia laboriosam aliquid soluta perferendis ratione ut perspiciatis. Provident consectetur distinctio molestias, eum excepturi minima. Animi earum, quidem autem voluptas dolorem porro facere, perspiciatis iste rem numquam at voluptates laboriosam, vitae neque officia? Doloremque consectetur atque aut laborum, porro, maiores, totam a fuga cum beatae iusto unde blanditiis cumque inventore magnam sunt. Possimus aliquam molestiae et tempora voluptatem, perspiciatis reprehenderit. Incidunt et veniam, non eius assumenda a nulla sunt alias nihil! Tempora incidunt iusto, sed assumenda consequuntur sunt laudantium?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыт</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Package -->
+
+              <!-- Package -->
+                <div class="item" data-toggle="modal" data-target="#a51">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://htstatic.imgsmail.ru/pic_image/7325aa89481a0e431fee6d84b2fec6e5/450/450/1678599/" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Galaxy A51</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+            <div class="modal fade" id="a51" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">Galaxy A51</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="centre">
+                            <img src="https://htstatic.imgsmail.ru/pic_image/7325aa89481a0e431fee6d84b2fec6e5/450/450/1678599/" alt="Merceder">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facere, alias, harum architecto optio minima saepe reprehenderit dignissimos in perspiciatis porro! Sapiente nisi hic pariatur? Fugiat odio vel fuga tempora blanditiis officia delectus fugit iure ex dolor atque aut nobis, eligendi distinctio cupiditate beatae exercitationem facilis saepe maiores, quo expedita. Nemo aut doloremque tempora magni quos similique saepe quam, esse temporibus! Hic magnam assumenda, aut perferendis natus debitis expedita inventore vitae iure nobis qui sunt voluptatem laudantium omnis quas facere? Fugit nulla nihil dolorem explicabo molestias aperiam officiis eum dignissimos dolore. Dolorem quas omnis quo odio ea sapiente, laboriosam voluptatum?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыт</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Package -->
+                <div class="item" data-toggle="modal" data-target="#myModal">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://images.samsung.com/is/image/samsung/in-galaxy-m51-m515fz-6gb-sm-m515fzbdins--301211700?scl=1&fmt=png-alpha" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Galaxy Mi51</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#myModal">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://www.ixbt.com/img/n1/news/2020/11/2/Samsung-Galaxy-S21-Ultra-1608217141-0-0_large.jpg" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Galaxy S21</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#myModal">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://htstatic.imgsmail.ru/pic_original/79ff8ab61a3e3a8b02f1b3f79691486f/1963271/" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Galaxy M12</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#myModal">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/61YVqHdFRxL._AC_SL1322_.jpg" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Galaxy S10+</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#myModal">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://images.samsung.com/is/image/samsung/ru-galaxy-a20-a205-sm-a205fzkvser-rperspectiveblack-thumb-155972154?$LazyLoad_Home_IMG$" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Galaxy A20 </div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-toggle="modal" data-target="#myModal">
+                    <div class="card__body">
+                        <div class="card__img">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/81AT%2BFlc%2BEL._AC_SX679_.jpg" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title">Electronix Note 20</div>
+                            <div class="card__price">$100</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- <script src="../libs/jquery.js"></script>
+    <script src="../libs/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <script src="../libs/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../../libs/jquery.js"></script>
+    <script src="../../libs/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../libs/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

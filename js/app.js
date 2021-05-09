@@ -1,14 +1,13 @@
-
-// Close menu
-$("#close-menu").click(function(e) {
-        e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-});
-// Open menu
-$("#menu-toggle").click(function(e) {
-        e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-});
+// // Close menu
+// $("#close-menu").click(function(e) {
+//         e.preventDefault();
+//     $("#sidebar-wrapper").toggleClass("active");
+// });
+// // Open menu
+// $("#menu-toggle").click(function(e) {
+//         e.preventDefault();
+//     $("#sidebar-wrapper").toggleClass("active");
+// });
 
 
 let swiper1 = new Swiper(".swiper1", {
@@ -165,7 +164,7 @@ let swiper4 = new Swiper(".swiper4", {
 
 
 // Toggle Sidebar
-$("#showMenuBtn").on("click",showHideMenu);
+$(".showMenuBtn").on("click",showHideMenu);
 
 function showHideMenu(){
   $(".side-menu-container").toggleClass("hide-side-menu");

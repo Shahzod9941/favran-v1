@@ -1,0 +1,149 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    /* justify-content: center; */
+}
+
+.item{
+    padding: 50px 10px;
+    box-sizing: border-box;
+    /* text-align: center; */
+    width: calc(100% / 12 * 2 - 30px);
+    margin: 15px;
+    /* background-color: aqua; */
+}
+
+/* @media screen and (max-width: 400px){
+    .item{
+
+        padding: 50px 10px;
+        box-sizing: border-box;
+        text-align: center;
+        width: calc(100% / 12 * 6 - 30px);
+        margin: 15px;
+        min-width: calc(150px - 60px);
+    }
+    
+}
+ */
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 721px) and (max-width: 991px) {
+    .container{
+        max-width: 991px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        /* justify-content: center; */
+    }
+    
+    .item{
+        padding: 50px 10px;
+        box-sizing: border-box;
+        text-align: center;
+        width: calc(100% / 12 * 3 - 30px);
+        margin: 15px;
+        /* min-width: calc(150px - 60px); */
+        
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 721px) {
+    .item{
+        padding: 50px 10px;
+        box-sizing: border-box;
+        text-align: center;
+        width: calc(100% / 12 * 4 - 30px);
+        margin: 15px;
+        min-width: calc(150px - 60px);
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+   
+    .item{
+        padding: 50px 10px;
+        box-sizing: border-box;
+        text-align: center;
+        width: calc(100% / 12 * 6 - 30px);
+        margin: 15px;
+        min-width: calc(150px - 60px);
+    }
+}
+
+/*По надобности дописую промежуточные разрешения, если вдруг по дизайну что то падает на 650px, тогда дописую:*/
+
+@media (max-width: 650) {
+
+} 
+
+@media (max-width: 285px){
+    .row{
+        justify-content: center;
+    }
+}
+
+
+.item{
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 10px;
+    max-height: 280px;
+    min-height: 230px;
+    padding: 0;
+}
+.card__body{
+    width: 100%;
+}
+
+.card__img{
+    width: 100%;
+}
+
+.item .card__img{
+    max-height: max-content;
+}
+.item .card__img img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    /* max-height: max-content; */
+    height: auto;
+}
+
+
+
+.centre img{
+    /* width: 50%; */
+    /* height: 200px; */
+}
+.centre{
+    text-align: center;
+}
