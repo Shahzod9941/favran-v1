@@ -612,3 +612,28 @@ ul.gallery__thumb li img{
 .gallery__imgBox img{
   width: 100%;
 }
+
+.modal__desciption{
+  padding: 10px;
+}
+
+.modal__seller{
+  font-size: large;
+}
+
+.modal__seller span a{
+  text-decoration: none;
+  color: rgb(80, 80, 209);
+}
+
+.modal__seller span a:hover{
+  color: rgb(38, 38, 231);
+}
+
+.modal__realPrice{
+  color: rgb(233, 34, 34);
+}
+.modal__currentPrice{
+  font-size: larger;
+  color: rgb(80, 80, 209);
+}
