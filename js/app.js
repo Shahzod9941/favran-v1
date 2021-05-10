@@ -176,3 +176,11 @@ $(".side-menu-container").on("click",function(e){
      showHideMenu();
    }
 });
+
+
+      $(document).ready(function(){
+        $('.gallery__thumb img').click(function(e){
+          e.preventDefault();
+          $('.gallery__imgBox img').attr("src", $(this).attr("src"));
+        })
+      })
